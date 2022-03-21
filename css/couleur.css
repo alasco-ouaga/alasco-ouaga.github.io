@@ -1,0 +1,112 @@
+.couleur {
+      color: rgb(66, 66, 245);
+}
+
+.nom {
+      text-transform:capitalize;
+      color: rgb(66, 66, 245);
+}
+
+.mar {
+      margin-top: 7%;
+}
+
+
+.haut {
+      height: 10%;
+}
+
+.cat {
+      padding-left: 15%;
+     }
+
+.principal {
+      margin-top: 0%;
+      padding-top: 7%;
+      padding-bottom: 7%;
+}
+
+.gestion {
+        margin-bottom: 10%;
+        margin-top: 10%;
+     }
+
+.TextDecoration {
+      
+      font-family : Copperplate Gothic;
+   }
+
+   .decorationcentre {
+      font-family : Copperplate Gothic;
+   }
+
+
+   .decorationcentre {
+      font-family: Georgia, 'Times New Roman', Times, serif;
+      font-size: 20px;
+   }
+
+   .decorationcentre1 {
+      font-family: Georgia, 'Times New Roman', Times, serif;
+      font-size: 40px;
+   }
+
+   .textcolor {
+      color: white;
+      font-family: Georgia, 'Times New Roman', Times, serif;
+   }
+
+   .footer {
+      background-color: rgba(0, 0, 0, 0.329);
+      height:100%;
+     
+  }
+
+   .TextDecorat1 {
+      color: white; 
+  }
+
+
+  .corp {
+      background:#46434079;
+     
+  }
+
+
+  .decorationcentre2 {
+      font-family: Georgia, 'Times New Roman', Times, serif;
+      font-size: 30px;
+      color: rgb(8, 8, 8);
+   }
+
+   .imag {
+      border-radius: 50%;
+      }
+
+  
+      .trans {
+          background-color: rgba(0, 0, 0, 0);
+         }
+   
+.ppp {
+
+   border: none;
+   border-bottom: 1px solid rgb(237, 241, 239);
+   background: rgba(33, 34, 34, 0.4);
+   }
+
+.police1{
+   font-family: Optima, sans-serif;
+   font-size: 60px;
+   font-weight: bold;
+}
+
+.css{
+   align-items: flex-start;
+}
+
+
+.centre{
+   align-items: flex-start;
+   width: 100%
+}
