@@ -59,10 +59,17 @@
    }
 
    .footer {
-      background-color: rgba(0, 0, 0, 0.329);
+      background-color: white;
       height:100%;
      
   }
+
+  .footer1 {
+   background-color: rgba(32, 31, 31, 0.479);
+   height:100%;
+  
+}
+
 
   .color1{
      color: rgb(189, 192, 12);
@@ -86,10 +93,14 @@ s
     padding-right: 0%;
 }
 
+.pied {
+   font-family: 'Kalam';font-size: 22px;
+}
+
   .decorationcentre2 {
       font-family: Kaushan Scrip;
       font-size: 20px;
-      color: rgb(121, 55, 55);
+      color: rgb(19, 16, 16);
       padding-left: 40%;
       font-family: 'Permanent Marker';
       font-size: 22px;
@@ -167,4 +178,8 @@ s
 
 .misepage{
    margin-top: 10%;
+}
+
+.ic{
+   color: #ffff;
 }
