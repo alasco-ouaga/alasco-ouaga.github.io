@@ -1,5 +1,7 @@
 .couleur {
       color: rgb(66, 66, 245);
+      font-family: 'Cinzel';font-size: 22px;
+
 }
 
 .nom {
@@ -62,6 +64,14 @@
      
   }
 
+  .color1{
+     color: rgb(189, 192, 12);
+  }
+
+  .color2{
+     color: rgb(17, 182, 174);
+}
+s
    .TextDecorat1 {
       color: white; 
   }
@@ -72,19 +82,32 @@
      
   }
 
+.corousel{
+    padding-right: 0%;
+}
 
   .decorationcentre2 {
-      font-family: Georgia, 'Times New Roman', Times, serif;
-      font-family: Forte;
+      font-family: Kaushan Scrip;
       font-size: 20px;
-      color: rgb(8, 8, 8);
+      color: rgb(121, 55, 55);
       padding-left: 40%;
-     
+      font-family: 'Permanent Marker';
+      font-size: 22px;
+   }
+
+   .gestionforma
+   {
+      font-family: 'Dancing Script';font-size: 30px;
+      font-family: 'Fasthand';font-size: 30px;
+      font-family: 'Fuzzy Bubbles';font-size: 25px;
+   }
+
+   .textforma4{
+      font-family: 'Ruda';font-size: 26px;
    }
 
    .decorationcentre3 {
-      font-family: Agency FB;
-     font-family: Goudy Old Style;
+      font-family: 'Tillana';font-size: 22px;
       font-size: 20px;
       color: rgb(8, 8, 8);
       padding-left: 40%;
@@ -115,6 +138,7 @@
 .css{
    
    padding-left: 0%;
+   color: white;
 }
 
 .textforma1{
