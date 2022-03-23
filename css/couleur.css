@@ -75,13 +75,16 @@
 
   .decorationcentre2 {
       font-family: Georgia, 'Times New Roman', Times, serif;
+      font-family: Forte;
       font-size: 20px;
       color: rgb(8, 8, 8);
+      padding-left: 40%;
      
    }
 
    .decorationcentre3 {
       font-family: Agency FB;
+     font-family: Goudy Old Style;
       font-size: 20px;
       color: rgb(8, 8, 8);
       padding-left: 40%;
@@ -116,7 +119,7 @@
 
 .textforma1{
   font-family: Georgia, 'Times New Roman', Times, serif ;
-  font-size: 60px;
+  font-size: 30px;
 }
 
 .textforma2{
@@ -126,9 +129,8 @@
  }
 
  .textforma3{
-   font-family: Engravers MT;
-   font-family: Times New Roman;
-   font-size: 50px;
+   font-family: Forte;
+   font-size: 30px;
    color: brown;
  }
 
