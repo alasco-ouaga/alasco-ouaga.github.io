@@ -1,0 +1,71 @@
+{%load static%}
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="{% static 'Styles/bootstrap.min.css'%}">
+    <link rel="stylesheet" href="{% static 'Styles/Moncss.css'%}">
+    
+   
+    <title>Home Page</title>
+</head>
+
+<body  class="image  boddy">
+  <nav class="navbar navbar-light fixed-top gestionNav fixed-top p-3">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#"> <span class="Police"> Django </span> </a>
+      <button class="navbar-toggler btn bg-light" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="offcanvas offcanvas-end Navbargestion text-center " tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+        <div class="offcanvas-header">
+          <h5 class="offcanvas-title" id="offcanvasNavbarLabel"> <span class="Police"> Menu </span> </h5>
+          <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+          <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+
+            <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="{% url 'HomePage' %}">
+                    <button class="btn btn-outline-dark "> <span class="Police"> Accueil </span></button>
+                </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="{% url 'ChiffreDroit' %}">
+                    <button class="btn btn-outline-dark "> <span class="Police"> chiffrer a droite </span> </button>
+                </a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="{% url 'ChiffreGauche' %}">
+                  <button class="btn btn-outline-dark "> <span class="Police"> chiffrer a gauche </span> </button>
+              </a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="{% url 'DechiffreGauche' %}">
+                  <button class="btn btn-outline-dark "> <span class="Police"> dechiffrer a droite </span>  </button>
+              </a>
+            </li>
+            
+            <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="{% url 'DechiffreDroit' %}">
+                    <button class="btn btn-outline-dark "> <span class="Police"> dechiffrer a gauche </span>  </button>
+                </a>
+            </li> 
+
+          </ul>
+        </div>
+      </div>
+    </div>
+</nav>
+</body>
+  
+
+<script src="{% static 'Styles/bootstrap.min.js'%}"></script>
+</html>
